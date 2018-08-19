@@ -1,6 +1,6 @@
 # My Reads
 
-This app is made with React and it's purpose is to manage books which you want to read, are currently reading or have already read.
+This app is made with React and its purpose is to manage books which you want to read, are currently reading or have already read.
 
 ## How to install and launch the project
 * clone this repository with `git clone https://github.com/PDavor/myreads`
