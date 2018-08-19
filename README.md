@@ -1,4 +1,4 @@
-#My Reads
+# My Reads
 
 This app is made with React and it's purpose is to manage books which you want to read, are currently reading or have already read.
 
