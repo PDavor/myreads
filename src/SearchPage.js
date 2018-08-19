@@ -47,6 +47,7 @@ class SearchPage extends Component {
         </div>
         <div className="search-books-results">
           <ol className="books-grid">
+            //show correct shelf on this page
             {this.state.searchedBooks.map(searchedBooks => {
               let shelf = "none";
 

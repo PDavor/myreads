@@ -10,6 +10,7 @@ class Book extends Component {
             style={{
               width: 128,
               height: 188,
+              //check if book has thumbnail and show it has(prevent error)
               backgroundImage: `url("${
                 this.props.book.imageLinks
                   ? this.props.book.imageLinks.thumbnail

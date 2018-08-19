@@ -9,19 +9,19 @@ class BooksApp extends Component {
   state = {
     books: []
   };
-
+  //get books from server
   componentDidMount() {
     BooksAPI.getAll().then(books => {
       this.setState({ books: books });
-    });
-  }
-
+    })
+  };
+  //update shelf when book is moved
   moveShelf = (book, shelf) => {
     BooksAPI.update(book, shelf);
     //refresh when book changes shelf
     BooksAPI.getAll().then(books => {
       this.setState({ books: books });
-    });
+    })
   };
 
   render() {
